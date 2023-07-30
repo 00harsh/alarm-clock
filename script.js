@@ -40,7 +40,6 @@ document.addEventListener('DOMContentLoaded', function () {
     });
   
     function triggerAlarm() {
-      // You can customize the action when the alarm is triggered (e.g., play a sound, show a notification)
       alert('ALARM! Wake up!');
     }
   });
