@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>JavaScript Alarm Clock</title>
+  <!-- Bootstrap CSS link -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+</head>
+<body>
+  <div class="container mt-4">
+    <h1 class="text-center">JavaScript Alarm Clock</h1>
+    <div class="row justify-content-center mt-4">
+      <div class="col-4">
+        <div class="form-group">
+          <label for="hourInput">Hour:</label>
+          <input type="number" class="form-control" id="hourInput" min="0" max="23">
+        </div>
+      </div>
+      <div class="col-4">
+        <div class="form-group">
+          <label for="minuteInput">Minute:</label>
+          <input type="number" class="form-control" id="minuteInput" min="0" max="59">
+        </div>
+      </div>
+    </div>
+    <div class="row justify-content-center">
+      <div class="col-4">
+        <button type="button" class="btn btn-primary btn-block" id="setAlarmBtn">Set Alarm</button>
+      </div>
+    </div>
+  </div>
+  <!-- Bootstrap JS and jQuery scripts -->
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+  <!-- Custom JavaScript -->
+  <script src="script.js"></script>
+</body>
+</html>
